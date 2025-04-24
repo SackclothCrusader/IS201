@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Scratch Page</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/flower.jpg" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/scratchStyles.css" rel="stylesheet" />
+    </head>
+    <body id="top">
+        <!-- Bad Navbar -->
+        <div class="worse-navbar">
+            <h1> 
+                <a href="../index.html">Stories</a> | 
+                <a href="go.html">Interactive Go Board</a>
+            </h1>
+        </div>
+
+        <!-- Image -->
+         <div class="go-board">
+            <img src="../assets/img/goBoard.jpg" alt="Go Board"/>
+         </div>
+         <br>
+         <div><h2> How to play Go</h2></div>
+         <div class="rules">
+            <p id="rules">
+                <ol>
+                    <li>
+                        Basics
+                        <ul>
+                            <li>The game is played on intersections of lines.</li>
+                            <li>Unlike in chess, pieces do not move. Turns are played by simply placing a stone on the board, or passing your turn.</li>
+                            <li>The player with the black pieces goes first, and the game ends when both players pass consecutively.</li>
+                            <li>The object of the game is to surround the most 'territory' or unoccupied intersections.</li>
+                            <li>The most common board sizes are 9x9, 13x13, and 19x19, with 19x19 being the standard for amatuer and professional games.</li>
+                            <li>Games should be played out until every intersection is surrounded as territory or a player resigns.</li>
+                        </ul>
+                </li>
+                <br>
+                <li>
+                        Stones
+                        <ul> 
+                            <li>Stones have 'liberties' which are intersections adjacent to a placed stone that are empty.</li>
+                            <li>Adjacent allied stones share liberties.</li>
+                            <li>Once a group of stones liberties are completely surrounded, they are captured (removed from the board, and counted as points for the opponent).</li>
+                            <li>Stones cannot be placed such that it will result in a self capture, unless playing there would capture an enemy stone.</li> 
+                        </ul>                    
+                    </li>
+                    <br>
+                    <li>
+                        Avoiding Capture (Life and Death)
+                        <ul>
+                            <li>At the end of a game, stones that are considered 'dead' are removed from the board and are given as points to the opposing player.</li>
+                            <li>Please reference <a href="https://www.youtube.com/watch?v=YPMog4LAmvg">this</a> video for a full explanation on life and death.</li>
+                        </ul>
+                        <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YPMog4LAmvg?si=a_gMNo0L-N7fbOk2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </li>
+                    <br>
+                    <li>Ko
+                        <ul>
+                            <li>The ko rule states that capturing moves that return to the immediately previous board state are illegal.</li>
+                            <li>This means that in perticular situations, a player must play in another area instead of immediately recapturing.</li>
+                            <li>Another video</li>
+                        </ul> <br>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ahbwb6PIMUQ?si=lxH5Lxzet_0MmKFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        Scoring
+                        <ul>
+                            <li>Scoring is done at the end of the game.</li>
+                            <li>First, dead stones are removed and added to the prisoners (other captured stones).</li>
+                            <li>Then, the game is scored by counting total surrounded territory plus the total number of captured stones.</li>
+                            <li>White then adds a 'komi' or additional points for being the player who plays second. The typical value is 6.5 points, but this can be changed for handicap games.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </p>
+         </div>
+         <div>
+            <h1>Avid Chess Fan?</h1> <br>
+            <p>Go is a lot less popular than Chess, so here is a chart that visualizes professional chess players by country. Enjoy!</p>
+            <div class='tableauPlaceholder' id='viz1745460922955' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;ChessMasters&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ChessMasters&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;ChessMasters&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745460922955');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+         </div>
+         <footer><a href="#">To Top</a> | <a href="#rules">To Rules</a> | <a href="#chess">To Chess Chart</a></footer>
+    </body>
+</html>

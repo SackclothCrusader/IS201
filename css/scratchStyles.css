@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-color: azure;
+    position: relative;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: purple;
+}
+
+.worse-navbar {
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    right: 10px;
+}
+
+.go-board {
+    position: absolute;
+    top: 145px;
+    right: 40px;
+}
+
+.go-board img {
+    width: 500px;
+    height: auto;
+}
+
+.rules {
+    background-color: lightyellow;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer a {
+    color: white;
+}
